@@ -14,7 +14,8 @@ root# git config --global user.email hoge@hoge.com
 
 3. making test file  
 root# su - hoge //changing user  
-hoge$ cd /home/hoge  
+hoge$ mkdir /home/hoge/git  
+hoge$ cd /home/hoge/git  
 hoge$ echo "TEST" >> TEST.txt  
 
 4. initializing  
